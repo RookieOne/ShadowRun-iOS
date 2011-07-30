@@ -15,6 +15,8 @@
 		0A3E399A13E49D5400E533EC /* CharacterSwapViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E399813E49D5400E533EC /* CharacterSwapViewController_iPad.xib */; };
 		8C37666413E4A263001FCF98 /* CDCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C37666313E4A263001FCF98 /* CDCharacter.m */; };
 		8C37666713E4A273001FCF98 /* CDAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C37666613E4A273001FCF98 /* CDAttribute.m */; };
+		8C37666B13E4A4F6001FCF98 /* CreateCharacterViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C37666913E4A4F6001FCF98 /* CreateCharacterViewController_iPad.m */; };
+		8C37666C13E4A4F6001FCF98 /* CreateCharacterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C37666A13E4A4F6001FCF98 /* CreateCharacterViewController_iPad.xib */; };
 		8C6952E813E4679600B4AE5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952E713E4679600B4AE5F /* UIKit.framework */; };
 		8C6952EA13E4679600B4AE5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952E913E4679600B4AE5F /* Foundation.framework */; };
 		8C6952EC13E4679600B4AE5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952EB13E4679600B4AE5F /* CoreGraphics.framework */; };
@@ -48,6 +50,9 @@
 		8C37666313E4A263001FCF98 /* CDCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCharacter.m; sourceTree = "<group>"; };
 		8C37666513E4A273001FCF98 /* CDAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAttribute.h; sourceTree = "<group>"; };
 		8C37666613E4A273001FCF98 /* CDAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAttribute.m; sourceTree = "<group>"; };
+		8C37666813E4A4F6001FCF98 /* CreateCharacterViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateCharacterViewController_iPad.h; sourceTree = "<group>"; };
+		8C37666913E4A4F6001FCF98 /* CreateCharacterViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateCharacterViewController_iPad.m; sourceTree = "<group>"; };
+		8C37666A13E4A4F6001FCF98 /* CreateCharacterViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCharacterViewController_iPad.xib; sourceTree = "<group>"; };
 		8C6952E313E4679600B4AE5F /* ShadowRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6952E713E4679600B4AE5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C6952E913E4679600B4AE5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -112,6 +117,9 @@
 				0A3E399613E49D5400E533EC /* CharacterSwapViewController_iPad.h */,
 				0A3E399713E49D5400E533EC /* CharacterSwapViewController_iPad.m */,
 				0A3E399813E49D5400E533EC /* CharacterSwapViewController_iPad.xib */,
+				8C37666813E4A4F6001FCF98 /* CreateCharacterViewController_iPad.h */,
+				8C37666913E4A4F6001FCF98 /* CreateCharacterViewController_iPad.m */,
+				8C37666A13E4A4F6001FCF98 /* CreateCharacterViewController_iPad.xib */,
 			);
 			name = "Character Swap";
 			sourceTree = "<group>";
@@ -268,6 +276,7 @@
 				8C69532713E46E5700B4AE5F /* RootViewController.xib in Resources */,
 				0A3E398A13E485F700E533EC /* SplitViewController_iPad.xib in Resources */,
 				0A3E399A13E49D5400E533EC /* CharacterSwapViewController_iPad.xib in Resources */,
+				8C37666C13E4A4F6001FCF98 /* CreateCharacterViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +300,7 @@
 				0A3E399913E49D5400E533EC /* CharacterSwapViewController_iPad.m in Sources */,
 				8C37666413E4A263001FCF98 /* CDCharacter.m in Sources */,
 				8C37666713E4A273001FCF98 /* CDAttribute.m in Sources */,
+				8C37666B13E4A4F6001FCF98 /* CreateCharacterViewController_iPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

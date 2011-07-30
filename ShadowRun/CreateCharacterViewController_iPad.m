@@ -1,17 +1,18 @@
 //
-//  SplitViewController.m
+//  CreateCharacterViewController_iPad.m
 //  ShadowRun
 //
-//  Created by Kevin Lee on 7/30/11.
+//  Created by Jonathan Birkholz on 7/30/11.
 //  Copyright 2011 Pursuit. All rights reserved.
 //
 
-#import "SplitViewController_iPad.h"
 #import "CreateCharacterViewController_iPad.h"
+#import "ShadowRunAppDelegate.h"
+#import "CDCharacter.h"
 
-@implementation SplitViewController_iPad
+@implementation CreateCharacterViewController_iPad
 
-@synthesize leftViewController, rightViewController, swapCharacterButton;
+@synthesize nameTextField;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -55,13 +56,25 @@
     // Return YES for supported orientations
 	return YES;
 }
-- (IBAction)swapCharacter {
-    NSLog(@"You want to swap the character");
+
+-(IBAction) createCharacter
+{
+    NSLog(@"create character");
     
-    CreateCharacterViewController_iPad *createCharacterController = [[CreateCharacterViewController_iPad alloc] initWithNibName:@"CreateCharacterViewController_iPad" bundle:nil];
-    createCharacterController.modalPresentationStyle = UIModalPresentationFormSheet;
-    [self presentModalViewController:createCharacterController animated:YES];
-    [createCharacterController release];
+    ShadowRunAppDelegate *appDelegate = (ShadowRunAppDelegate *)[[UIApplication sharedApplication] delegate];
+    NSManagedObjectContext *context = [appDelegate managedObjectContext];
+    CDCharacter *character = [NSEntityDescription
+                                  insertNewObjectForEntityForName:@"Character" 
+                                  inManagedObjectContext:context];
+    character.name = self.nameTextField.text;
+    
+    NSError *error;
+    if (![context save:&error]) {
+        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+    }
+    
+    [self dismissModalViewControllerAnimated:YES];
+    
 }
 
 @end
