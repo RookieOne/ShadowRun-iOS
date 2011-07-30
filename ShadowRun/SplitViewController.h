@@ -15,4 +15,6 @@
 
 @property (nonatomic, retain) IBOutlet UIViewController *leftViewController;
 @property (nonatomic, retain) IBOutlet UIViewController *rightViewController;
+@property (nonatomic, retain) IBOutlet UIBarButtonItem *swapCharacterButton;
+- (IBAction)swapCharacter;
 @end

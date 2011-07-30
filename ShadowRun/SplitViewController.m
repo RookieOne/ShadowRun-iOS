@@ -11,7 +11,7 @@
 
 @implementation SplitViewController
 
-@synthesize leftViewController, rightViewController;
+@synthesize leftViewController, rightViewController, swapCharacterButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -55,5 +55,7 @@
     // Return YES for supported orientations
 	return YES;
 }
-
+- (IBAction)swapCharacter {
+    NSLog(@"You want to swap the character");
+}
 @end

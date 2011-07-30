@@ -102,7 +102,7 @@
     }
     
     // Configure the cell...
-    cell.textLabel.text = [NSString stringWithFormat:@"%f", indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%d", indexPath.row];
     return cell;
 }
 
