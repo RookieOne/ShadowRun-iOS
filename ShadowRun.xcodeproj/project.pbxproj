@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C6952E813E4679600B4AE5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952E713E4679600B4AE5F /* UIKit.framework */; };
+		8C6952EA13E4679600B4AE5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952E913E4679600B4AE5F /* Foundation.framework */; };
+		8C6952EC13E4679600B4AE5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952EB13E4679600B4AE5F /* CoreGraphics.framework */; };
+		8C6952EE13E4679600B4AE5F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952ED13E4679600B4AE5F /* CoreData.framework */; };
+		8C6952F413E4679600B4AE5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C6952F213E4679600B4AE5F /* InfoPlist.strings */; };
+		8C6952F713E4679600B4AE5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6952F613E4679600B4AE5F /* main.m */; };
+		8C6952FA13E4679600B4AE5F /* ShadowRunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6952F913E4679600B4AE5F /* ShadowRunAppDelegate.m */; };
+		8C6952FD13E4679600B4AE5F /* ShadowRun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C6952FB13E4679600B4AE5F /* ShadowRun.xcdatamodeld */; };
+		8C69530113E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69530013E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.m */; };
+		8C69530413E4679600B4AE5F /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C69530213E4679600B4AE5F /* MainWindow_iPhone.xib */; };
+		8C69530813E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69530713E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m */; };
+		8C69530B13E4679600B4AE5F /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C69530913E4679600B4AE5F /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C6952E313E4679600B4AE5F /* ShadowRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C6952E713E4679600B4AE5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C6952E913E4679600B4AE5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C6952EB13E4679600B4AE5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C6952ED13E4679600B4AE5F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8C6952F113E4679600B4AE5F /* ShadowRun-Info.plist */ = {isa = PBXFileReference; path = "ShadowRun-Info.plist"; sourceTree = "<group>"; };
+		8C6952F313E4679600B4AE5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C6952F513E4679600B4AE5F /* ShadowRun-Prefix.pch */ = {isa = PBXFileReference; path = "ShadowRun-Prefix.pch"; sourceTree = "<group>"; };
+		8C6952F613E4679600B4AE5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C6952F813E4679600B4AE5F /* ShadowRunAppDelegate.h */ = {isa = PBXFileReference; path = ShadowRunAppDelegate.h; sourceTree = "<group>"; };
+		8C6952F913E4679600B4AE5F /* ShadowRunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowRunAppDelegate.m; sourceTree = "<group>"; };
+		8C6952FC13E4679600B4AE5F /* ShadowRun.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShadowRun.xcdatamodel; sourceTree = "<group>"; };
+		8C6952FF13E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = ShadowRunAppDelegate_iPhone.h; path = iPhone/ShadowRunAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		8C69530013E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ShadowRunAppDelegate_iPhone.m; path = iPhone/ShadowRunAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		8C69530313E4679600B4AE5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		8C69530613E4679600B4AE5F /* ShadowRunAppDelegate_iPad.h */ = {isa = PBXFileReference; name = ShadowRunAppDelegate_iPad.h; path = iPad/ShadowRunAppDelegate_iPad.h; sourceTree = "<group>"; };
+		8C69530713E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ShadowRunAppDelegate_iPad.m; path = iPad/ShadowRunAppDelegate_iPad.m; sourceTree = "<group>"; };
+		8C69530A13E4679600B4AE5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C6952E013E4679600B4AE5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6952E813E4679600B4AE5F /* UIKit.framework in Frameworks */,
+				8C6952EA13E4679600B4AE5F /* Foundation.framework in Frameworks */,
+				8C6952EC13E4679600B4AE5F /* CoreGraphics.framework in Frameworks */,
+				8C6952EE13E4679600B4AE5F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C6952D813E4679600B4AE5F = {
+			isa = PBXGroup;
+			children = (
+				8C6952EF13E4679600B4AE5F /* ShadowRun */,
+				8C6952E613E4679600B4AE5F /* Frameworks */,
+				8C6952E413E4679600B4AE5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C6952E413E4679600B4AE5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C6952E313E4679600B4AE5F /* ShadowRun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C6952E613E4679600B4AE5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C6952E713E4679600B4AE5F /* UIKit.framework */,
+				8C6952E913E4679600B4AE5F /* Foundation.framework */,
+				8C6952EB13E4679600B4AE5F /* CoreGraphics.framework */,
+				8C6952ED13E4679600B4AE5F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C6952EF13E4679600B4AE5F /* ShadowRun */ = {
+			isa = PBXGroup;
+			children = (
+				8C6952F813E4679600B4AE5F /* ShadowRunAppDelegate.h */,
+				8C6952F913E4679600B4AE5F /* ShadowRunAppDelegate.m */,
+				8C6952FB13E4679600B4AE5F /* ShadowRun.xcdatamodeld */,
+				8C6952FE13E4679600B4AE5F /* iPhone */,
+				8C69530513E4679600B4AE5F /* iPad */,
+				8C6952F013E4679600B4AE5F /* Supporting Files */,
+			);
+			path = ShadowRun;
+			sourceTree = "<group>";
+		};
+		8C6952F013E4679600B4AE5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C6952F113E4679600B4AE5F /* ShadowRun-Info.plist */,
+				8C6952F213E4679600B4AE5F /* InfoPlist.strings */,
+				8C6952F513E4679600B4AE5F /* ShadowRun-Prefix.pch */,
+				8C6952F613E4679600B4AE5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C6952FE13E4679600B4AE5F /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8C6952FF13E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.h */,
+				8C69530013E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.m */,
+				8C69530213E4679600B4AE5F /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		8C69530513E4679600B4AE5F /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				8C69530613E4679600B4AE5F /* ShadowRunAppDelegate_iPad.h */,
+				8C69530713E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m */,
+				8C69530913E4679600B4AE5F /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C6952E213E4679600B4AE5F /* ShadowRun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C69530E13E4679600B4AE5F /* Build configuration list for PBXNativeTarget "ShadowRun" */;
+			buildPhases = (
+				8C6952DF13E4679600B4AE5F /* Sources */,
+				8C6952E013E4679600B4AE5F /* Frameworks */,
+				8C6952E113E4679600B4AE5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowRun;
+			productName = ShadowRun;
+			productReference = 8C6952E313E4679600B4AE5F /* ShadowRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C6952DA13E4679600B4AE5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Pursuit;
+			};
+			buildConfigurationList = 8C6952DD13E4679600B4AE5F /* Build configuration list for PBXProject "ShadowRun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C6952D813E4679600B4AE5F;
+			productRefGroup = 8C6952E413E4679600B4AE5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C6952E213E4679600B4AE5F /* ShadowRun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C6952E113E4679600B4AE5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6952F413E4679600B4AE5F /* InfoPlist.strings in Resources */,
+				8C69530413E4679600B4AE5F /* MainWindow_iPhone.xib in Resources */,
+				8C69530B13E4679600B4AE5F /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C6952DF13E4679600B4AE5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6952F713E4679600B4AE5F /* main.m in Sources */,
+				8C6952FA13E4679600B4AE5F /* ShadowRunAppDelegate.m in Sources */,
+				8C6952FD13E4679600B4AE5F /* ShadowRun.xcdatamodeld in Sources */,
+				8C69530113E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.m in Sources */,
+				8C69530813E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C6952F213E4679600B4AE5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C6952F313E4679600B4AE5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C69530213E4679600B4AE5F /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C69530313E4679600B4AE5F /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		8C69530913E4679600B4AE5F /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C69530A13E4679600B4AE5F /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C69530C13E4679600B4AE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C69530D13E4679600B4AE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C69530F13E4679600B4AE5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowRun/ShadowRun-Prefix.pch";
+				INFOPLIST_FILE = "ShadowRun/ShadowRun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C69531013E4679600B4AE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShadowRun/ShadowRun-Prefix.pch";
+				INFOPLIST_FILE = "ShadowRun/ShadowRun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C6952DD13E4679600B4AE5F /* Build configuration list for PBXProject "ShadowRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C69530C13E4679600B4AE5F /* Debug */,
+				8C69530D13E4679600B4AE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C69530E13E4679600B4AE5F /* Build configuration list for PBXNativeTarget "ShadowRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C69530F13E4679600B4AE5F /* Debug */,
+				8C69531013E4679600B4AE5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8C6952FB13E4679600B4AE5F /* ShadowRun.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8C6952FC13E4679600B4AE5F /* ShadowRun.xcdatamodel */,
+			);
+			currentVersion = 8C6952FC13E4679600B4AE5F /* ShadowRun.xcdatamodel */;
+			path = ShadowRun.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8C6952DA13E4679600B4AE5F /* Project object */;
+}
