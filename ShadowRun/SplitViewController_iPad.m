@@ -43,13 +43,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(swapCharacter:) name:kCharacterSwap object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(swapCharacter:) name:kSwapCharacterNotification object:nil];
 }
 
 -(void) swapCharacter:(NSNotification *)notification
 {
     CDCharacter *character = (CDCharacter *)[notification object];
     NSLog(@"swap character!! %@", character.name);
+    [[NSNotificationCenter defaultCenter] postNotificationName:kCharacterSwappedNotification object:character];
 }
 
 - (void)viewDidUnload

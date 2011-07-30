@@ -7,6 +7,7 @@
 //
 
 #import "ProfileViewController.h"
+#import "CDCharacter.h"
 
 
 @implementation ProfileViewController
@@ -43,6 +44,16 @@
     self.alias.text = @"Kevin";
     self.metaType.text = @"Human";
     self.playerName.text = @"Tomoya";
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(characterSwapped:) name:kCharacterSwappedNotification object:nil];
+}
+
+-(void) characterSwapped:(NSNotification *) notification
+{
+    CDCharacter *character = (CDCharacter *) [notification object];
+ 
+    self.playerName.text = character.name;
+    self.alias.text = character.alias;
 }
 
 - (void)viewDidUnload

@@ -8,4 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#define kCharacterSwap @"CharacterSwap"
+// Notifications
+#define kSwapCharacterNotification @"SwapCharacter"
+#define kCharacterSwappedNotification @"CharacterSwapped"
