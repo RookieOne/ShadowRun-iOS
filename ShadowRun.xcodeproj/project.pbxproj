@@ -19,6 +19,10 @@
 		8C69530413E4679600B4AE5F /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C69530213E4679600B4AE5F /* MainWindow_iPhone.xib */; };
 		8C69530813E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69530713E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m */; };
 		8C69530B13E4679600B4AE5F /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C69530913E4679600B4AE5F /* MainWindow_iPad.xib */; };
+		8C69531613E469C600B4AE5F /* CreateCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69531413E469C600B4AE5F /* CreateCharacterViewController.m */; };
+		8C69531713E469C600B4AE5F /* CreateCharacterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C69531513E469C600B4AE5F /* CreateCharacterViewController.xib */; };
+		8C69532613E46E5700B4AE5F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69532413E46E5700B4AE5F /* RootViewController.m */; };
+		8C69532713E46E5700B4AE5F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C69532513E46E5700B4AE5F /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,12 @@
 		8C69530613E4679600B4AE5F /* ShadowRunAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShadowRunAppDelegate_iPad.h; path = iPad/ShadowRunAppDelegate_iPad.h; sourceTree = "<group>"; };
 		8C69530713E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ShadowRunAppDelegate_iPad.m; path = iPad/ShadowRunAppDelegate_iPad.m; sourceTree = "<group>"; };
 		8C69530A13E4679600B4AE5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		8C69531313E469C500B4AE5F /* CreateCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateCharacterViewController.h; sourceTree = "<group>"; };
+		8C69531413E469C600B4AE5F /* CreateCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateCharacterViewController.m; sourceTree = "<group>"; };
+		8C69531513E469C600B4AE5F /* CreateCharacterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCharacterViewController.xib; sourceTree = "<group>"; };
+		8C69532313E46E5700B4AE5F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8C69532413E46E5700B4AE5F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		8C69532513E46E5700B4AE5F /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,7 @@
 		8C6952EF13E4679600B4AE5F /* ShadowRun */ = {
 			isa = PBXGroup;
 			children = (
+				8C69531113E4683500B4AE5F /* Classes */,
 				8C6952F813E4679600B4AE5F /* ShadowRunAppDelegate.h */,
 				8C6952F913E4679600B4AE5F /* ShadowRunAppDelegate.m */,
 				8C6952FB13E4679600B4AE5F /* ShadowRun.xcdatamodeld */,
@@ -115,6 +126,12 @@
 				8C6952FF13E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.h */,
 				8C69530013E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.m */,
 				8C69530213E4679600B4AE5F /* MainWindow_iPhone.xib */,
+				8C69531313E469C500B4AE5F /* CreateCharacterViewController.h */,
+				8C69531413E469C600B4AE5F /* CreateCharacterViewController.m */,
+				8C69531513E469C600B4AE5F /* CreateCharacterViewController.xib */,
+				8C69532313E46E5700B4AE5F /* RootViewController.h */,
+				8C69532413E46E5700B4AE5F /* RootViewController.m */,
+				8C69532513E46E5700B4AE5F /* RootViewController.xib */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -127,6 +144,13 @@
 				8C69530913E4679600B4AE5F /* MainWindow_iPad.xib */,
 			);
 			name = iPad;
+			sourceTree = "<group>";
+		};
+		8C69531113E4683500B4AE5F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +206,8 @@
 				8C6952F413E4679600B4AE5F /* InfoPlist.strings in Resources */,
 				8C69530413E4679600B4AE5F /* MainWindow_iPhone.xib in Resources */,
 				8C69530B13E4679600B4AE5F /* MainWindow_iPad.xib in Resources */,
+				8C69531713E469C600B4AE5F /* CreateCharacterViewController.xib in Resources */,
+				8C69532713E46E5700B4AE5F /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +223,8 @@
 				8C6952FD13E4679600B4AE5F /* ShadowRun.xcdatamodeld in Sources */,
 				8C69530113E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.m in Sources */,
 				8C69530813E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m in Sources */,
+				8C69531613E469C600B4AE5F /* CreateCharacterViewController.m in Sources */,
+				8C69532613E46E5700B4AE5F /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

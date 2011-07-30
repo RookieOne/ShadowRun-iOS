@@ -10,6 +10,9 @@
 
 @implementation ShadowRunAppDelegate_iPhone
 
+@synthesize rootViewController; 
+@synthesize window;
+
 - (void)dealloc
 {
 	[super dealloc];
