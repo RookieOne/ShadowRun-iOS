@@ -1,5 +1,5 @@
 //
-//  Character.h
+//  CDCharacter.h
 //  ShadowRun
 //
 //  Created by Jonathan Birkholz on 7/30/11.
@@ -9,10 +9,13 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
+@class CDAttribute;
 
-@interface Character : NSManagedObject {
+@interface CDCharacter : NSManagedObject {
 @private
 }
 @property (nonatomic, retain) NSString * name;
+@property (nonatomic, retain) NSString * alias;
+@property (nonatomic, retain) CDAttribute * attributes;
 
 @end

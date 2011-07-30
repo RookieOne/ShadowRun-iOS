@@ -13,6 +13,8 @@
 		0A3E399313E490EE00E533EC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E399113E490EE00E533EC /* ProfileViewController.m */; };
 		0A3E399913E49D5400E533EC /* CharacterSwapViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E399713E49D5400E533EC /* CharacterSwapViewController_iPad.m */; };
 		0A3E399A13E49D5400E533EC /* CharacterSwapViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E399813E49D5400E533EC /* CharacterSwapViewController_iPad.xib */; };
+		8C37666413E4A263001FCF98 /* CDCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C37666313E4A263001FCF98 /* CDCharacter.m */; };
+		8C37666713E4A273001FCF98 /* CDAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C37666613E4A273001FCF98 /* CDAttribute.m */; };
 		8C6952E813E4679600B4AE5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952E713E4679600B4AE5F /* UIKit.framework */; };
 		8C6952EA13E4679600B4AE5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952E913E4679600B4AE5F /* Foundation.framework */; };
 		8C6952EC13E4679600B4AE5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952EB13E4679600B4AE5F /* CoreGraphics.framework */; };
@@ -29,9 +31,6 @@
 		8C69531713E469C600B4AE5F /* CreateCharacterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C69531513E469C600B4AE5F /* CreateCharacterViewController.xib */; };
 		8C69532613E46E5700B4AE5F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69532413E46E5700B4AE5F /* RootViewController.m */; };
 		8C69532713E46E5700B4AE5F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C69532513E46E5700B4AE5F /* RootViewController.xib */; };
-		8C69532B13E4936000B4AE5F /* CharactersViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69532913E4936000B4AE5F /* CharactersViewController_iPhone.m */; };
-		8C69532C13E4936000B4AE5F /* CharactersViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C69532A13E4936000B4AE5F /* CharactersViewController_iPhone.xib */; };
-		8C69532F13E4950E00B4AE5F /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69532E13E4950E00B4AE5F /* Character.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,9 +41,13 @@
 		0A3E398C13E48D0F00E533EC /* AttributesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributesTableViewController.m; sourceTree = "<group>"; };
 		0A3E399013E490EE00E533EC /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		0A3E399113E490EE00E533EC /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
-		0A3E399613E49D5400E533EC /* CharacterSwapViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; path = CharacterSwapViewController_iPad.h; sourceTree = "<group>"; };
+		0A3E399613E49D5400E533EC /* CharacterSwapViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterSwapViewController_iPad.h; sourceTree = "<group>"; };
 		0A3E399713E49D5400E533EC /* CharacterSwapViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterSwapViewController_iPad.m; sourceTree = "<group>"; };
 		0A3E399813E49D5400E533EC /* CharacterSwapViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterSwapViewController_iPad.xib; sourceTree = "<group>"; };
+		8C37666213E4A263001FCF98 /* CDCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCharacter.h; sourceTree = "<group>"; };
+		8C37666313E4A263001FCF98 /* CDCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCharacter.m; sourceTree = "<group>"; };
+		8C37666513E4A273001FCF98 /* CDAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAttribute.h; sourceTree = "<group>"; };
+		8C37666613E4A273001FCF98 /* CDAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAttribute.m; sourceTree = "<group>"; };
 		8C6952E313E4679600B4AE5F /* ShadowRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6952E713E4679600B4AE5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C6952E913E4679600B4AE5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -72,8 +75,6 @@
 		8C69532813E4936000B4AE5F /* CharactersViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharactersViewController_iPhone.h; sourceTree = "<group>"; };
 		8C69532913E4936000B4AE5F /* CharactersViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharactersViewController_iPhone.m; sourceTree = "<group>"; };
 		8C69532A13E4936000B4AE5F /* CharactersViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharactersViewController_iPhone.xib; sourceTree = "<group>"; };
-		8C69532D13E4950E00B4AE5F /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
-		8C69532E13E4950E00B4AE5F /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,8 +203,10 @@
 		8C69531113E4683500B4AE5F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8C69532D13E4950E00B4AE5F /* Character.h */,
-				8C69532E13E4950E00B4AE5F /* Character.m */,
+				8C37666513E4A273001FCF98 /* CDAttribute.h */,
+				8C37666613E4A273001FCF98 /* CDAttribute.m */,
+				8C37666213E4A263001FCF98 /* CDCharacter.h */,
+				8C37666313E4A263001FCF98 /* CDCharacter.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -286,6 +289,8 @@
 				0A3E398E13E48D0F00E533EC /* AttributesTableViewController.m in Sources */,
 				0A3E399313E490EE00E533EC /* ProfileViewController.m in Sources */,
 				0A3E399913E49D5400E533EC /* CharacterSwapViewController_iPad.m in Sources */,
+				8C37666413E4A263001FCF98 /* CDCharacter.m in Sources */,
+				8C37666713E4A273001FCF98 /* CDAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
