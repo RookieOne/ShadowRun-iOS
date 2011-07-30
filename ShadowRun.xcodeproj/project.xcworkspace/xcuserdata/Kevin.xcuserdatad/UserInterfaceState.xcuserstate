@@ -3652,7 +3652,7 @@
     s = 0;
 }</string>
 		</dict>
-		<real>333747576.57277298</real>
+		<real>333747675.06065601</real>
 		<string>{1820, 938}</string>
 		<string>{2510, 0}</string>
 		<string>-tableView:cellForRowAtIndexPath:</string>
@@ -8948,7 +8948,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {1016, 732}}</string>
+		<string>{{0, 0}, {1016, 754}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10766,7 +10766,7 @@
     s = 0;
 }</string>
 		</dict>
-		<real>333747576.56821501</real>
+		<real>333747675.05610698</real>
 		<string>{1820, 938}</string>
 		<string>{2510, 0}</string>
 		<dict>
