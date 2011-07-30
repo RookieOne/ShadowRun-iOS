@@ -247,7 +247,11 @@
 				8C69530B13E4679600B4AE5F /* MainWindow_iPad.xib in Resources */,
 				8C69531713E469C600B4AE5F /* CreateCharacterViewController.xib in Resources */,
 				8C69532713E46E5700B4AE5F /* RootViewController.xib in Resources */,
+<<<<<<< HEAD
+				8C69532C13E4936000B4AE5F /* CharactersViewController_iPhone.xib in Resources */,
+=======
 				0A3E398A13E485F700E533EC /* SplitViewController.xib in Resources */,
+>>>>>>> ff4823f5f74ca655142e0e67b1679d77a4776938
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +269,14 @@
 				8C69530813E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m in Sources */,
 				8C69531613E469C600B4AE5F /* CreateCharacterViewController.m in Sources */,
 				8C69532613E46E5700B4AE5F /* RootViewController.m in Sources */,
+<<<<<<< HEAD
+				8C69532B13E4936000B4AE5F /* CharactersViewController_iPhone.m in Sources */,
+				8C69532F13E4950E00B4AE5F /* Character.m in Sources */,
+=======
 				0A3E398913E485F700E533EC /* SplitViewController.m in Sources */,
 				0A3E398E13E48D0F00E533EC /* AttributesTableViewController.m in Sources */,
 				0A3E399313E490EE00E533EC /* ProfileViewController.m in Sources */,
+>>>>>>> ff4823f5f74ca655142e0e67b1679d77a4776938
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
