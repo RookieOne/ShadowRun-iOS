@@ -11,6 +11,9 @@
 
 @implementation AttributesTableViewController
 
+@synthesize character;
+@synthesize attributes;
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -44,7 +47,22 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(characterSwapped:) name:kCharacterSwappedNotification object:nil];
+}
+
+-(void) characterSwapped:(NSNotification *) notification
+{
+    self.character = (CDCharacter *) [notification object];
+    NSSortDescriptor *descriptor = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES];
     
+    self.attributes = [NSMutableArray array];
+    for (CDAttribute *attribute in self.character.attributes) {
+        [self.attributes addObject:attribute]; 
+    }
+    
+    //self.sortedAttributes = [self.character.attributes sortedArrayUsingDescriptors:[NSMutableArray arrayWithObject:descriptor]];
+    
+    [self.tableView reloadData];
 }
 
 - (void)viewDidUnload
@@ -90,8 +108,11 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    if (self.character) {
+        return [self.character.attributes count];
+    }
     // Return the number of rows in the section.
-    return 12;
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -102,8 +123,12 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    // Configure the cell...
-    cell.textLabel.text = [NSString stringWithFormat:@"%d", indexPath.row];
+    NSString *key = [NSString stringWithFormat:@"%d", indexPath.row];
+    //CDAttribute *attribute = [self.character.attributes valueForKey:key];
+    //CDAttribute *attribute = (CDAttribute *) [self.sortedAttributes objectAtIndex:indexPath.row];
+    CDAttribute *attribute = (CDAttribute *) [self.attributes objectAtIndex:indexPath.row];
+    cell.textLabel.text = attribute.name;
+    
     return cell;
 }
 

@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "CDCharacter.h"
+#import "CDAttribute.h"
 
 @interface AttributesTableViewController : UITableViewController {
     
 }
+
+@property (nonatomic, retain) CDCharacter *character;
+@property (nonatomic, retain) NSMutableArray *attributes;
 
 @end
