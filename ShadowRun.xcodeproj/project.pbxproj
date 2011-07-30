@@ -23,6 +23,9 @@
 		8C69531713E469C600B4AE5F /* CreateCharacterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C69531513E469C600B4AE5F /* CreateCharacterViewController.xib */; };
 		8C69532613E46E5700B4AE5F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69532413E46E5700B4AE5F /* RootViewController.m */; };
 		8C69532713E46E5700B4AE5F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C69532513E46E5700B4AE5F /* RootViewController.xib */; };
+		8C69532B13E4936000B4AE5F /* CharactersViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69532913E4936000B4AE5F /* CharactersViewController_iPhone.m */; };
+		8C69532C13E4936000B4AE5F /* CharactersViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C69532A13E4936000B4AE5F /* CharactersViewController_iPhone.xib */; };
+		8C69532F13E4950E00B4AE5F /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C69532E13E4950E00B4AE5F /* Character.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,11 @@
 		8C69532313E46E5700B4AE5F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		8C69532413E46E5700B4AE5F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		8C69532513E46E5700B4AE5F /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		8C69532813E4936000B4AE5F /* CharactersViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharactersViewController_iPhone.h; sourceTree = "<group>"; };
+		8C69532913E4936000B4AE5F /* CharactersViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharactersViewController_iPhone.m; sourceTree = "<group>"; };
+		8C69532A13E4936000B4AE5F /* CharactersViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharactersViewController_iPhone.xib; sourceTree = "<group>"; };
+		8C69532D13E4950E00B4AE5F /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		8C69532E13E4950E00B4AE5F /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,9 @@
 				8C69532313E46E5700B4AE5F /* RootViewController.h */,
 				8C69532413E46E5700B4AE5F /* RootViewController.m */,
 				8C69532513E46E5700B4AE5F /* RootViewController.xib */,
+				8C69532813E4936000B4AE5F /* CharactersViewController_iPhone.h */,
+				8C69532913E4936000B4AE5F /* CharactersViewController_iPhone.m */,
+				8C69532A13E4936000B4AE5F /* CharactersViewController_iPhone.xib */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -149,6 +160,8 @@
 		8C69531113E4683500B4AE5F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8C69532D13E4950E00B4AE5F /* Character.h */,
+				8C69532E13E4950E00B4AE5F /* Character.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -208,6 +221,7 @@
 				8C69530B13E4679600B4AE5F /* MainWindow_iPad.xib in Resources */,
 				8C69531713E469C600B4AE5F /* CreateCharacterViewController.xib in Resources */,
 				8C69532713E46E5700B4AE5F /* RootViewController.xib in Resources */,
+				8C69532C13E4936000B4AE5F /* CharactersViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +239,8 @@
 				8C69530813E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m in Sources */,
 				8C69531613E469C600B4AE5F /* CreateCharacterViewController.m in Sources */,
 				8C69532613E46E5700B4AE5F /* RootViewController.m in Sources */,
+				8C69532B13E4936000B4AE5F /* CharactersViewController_iPhone.m in Sources */,
+				8C69532F13E4950E00B4AE5F /* Character.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

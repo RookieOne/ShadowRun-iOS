@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 
 
-@interface CreateCharacterViewController : UITableViewController {
+@interface CreateCharacterViewController : UIViewController {
     
 }
+
+@property (nonatomic, retain) IBOutlet UITextField *nameTextField;
+
+-(IBAction) createCharacter;
 
 @end

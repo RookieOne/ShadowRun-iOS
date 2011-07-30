@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "CreateCharacterViewController.h"
+#import "CharactersViewController_iPhone.h"
 
 @implementation RootViewController
 
@@ -37,8 +38,13 @@
 
 - (void)viewDidLoad
 {
-    NSLog(@"View did load");
+    NSLog(@"Root view did load");
     [super viewDidLoad];
+    
+//    CharactersViewController_iPhone *charactersController = [[CharactersViewController_iPhone alloc] initWithNibName:@"CharactersViewController_iPhone" bundle:nil];
+//    
+//    [self.view addSubview:charactersController.view];
+//    [charactersController release];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -59,6 +65,9 @@
 -(IBAction) launchModal
 {
     NSLog(@"Launch Modal");
+    CreateCharacterViewController *createCharacterController = [[CreateCharacterViewController alloc] initWithNibName:@"CreateCharacterViewController" bundle:nil];
+    [self presentModalViewController:createCharacterController animated:YES];
+    [createCharacterController release];
 }
 
 
