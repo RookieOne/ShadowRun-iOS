@@ -9,6 +9,7 @@
 #import "CreateCharacterViewController_iPad.h"
 #import "ShadowRunAppDelegate.h"
 #import "CDCharacter.h"
+#import "CDAttribute.h"
 
 @implementation CreateCharacterViewController_iPad
 
@@ -67,6 +68,17 @@
                                   insertNewObjectForEntityForName:@"Character" 
                                   inManagedObjectContext:context];
     character.name = self.nameTextField.text;
+    
+    NSMutableArray *attributeNames = [NSMutableArray arrayWithObjects:@"Body", @"Agility", @"Reaction", @"Strength", @"Charisma", @"Intuition", @"Logic", @"Willpower", @"Edge", @"Essence", @"Initiative", @"Magic/Resonance", nil];
+
+    for (NSString *attributeName in attributeNames) {
+        CDAttribute *attribute = [NSEntityDescription
+                                  insertNewObjectForEntityForName:@"Attribute" 
+                                  inManagedObjectContext:context];
+        attribute.name = attributeName;
+        attribute.value = [NSNumber numberWithInt:1];
+        [character addAttributesObject:attribute];
+    }
     
     NSError *error;
     if (![context save:&error]) {

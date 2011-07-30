@@ -16,6 +16,8 @@
 }
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSString * alias;
-@property (nonatomic, retain) CDAttribute * attributes;
+@property (nonatomic, retain) NSSet* attributes;
+
+- (void)addAttributesObject:(CDAttribute *)value;
 
 @end
