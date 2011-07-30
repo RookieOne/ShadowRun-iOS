@@ -27,17 +27,17 @@
 		8C6952E913E4679600B4AE5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8C6952EB13E4679600B4AE5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8C6952ED13E4679600B4AE5F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		8C6952F113E4679600B4AE5F /* ShadowRun-Info.plist */ = {isa = PBXFileReference; path = "ShadowRun-Info.plist"; sourceTree = "<group>"; };
+		8C6952F113E4679600B4AE5F /* ShadowRun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShadowRun-Info.plist"; sourceTree = "<group>"; };
 		8C6952F313E4679600B4AE5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8C6952F513E4679600B4AE5F /* ShadowRun-Prefix.pch */ = {isa = PBXFileReference; path = "ShadowRun-Prefix.pch"; sourceTree = "<group>"; };
+		8C6952F513E4679600B4AE5F /* ShadowRun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShadowRun-Prefix.pch"; sourceTree = "<group>"; };
 		8C6952F613E4679600B4AE5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8C6952F813E4679600B4AE5F /* ShadowRunAppDelegate.h */ = {isa = PBXFileReference; path = ShadowRunAppDelegate.h; sourceTree = "<group>"; };
+		8C6952F813E4679600B4AE5F /* ShadowRunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShadowRunAppDelegate.h; sourceTree = "<group>"; };
 		8C6952F913E4679600B4AE5F /* ShadowRunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowRunAppDelegate.m; sourceTree = "<group>"; };
 		8C6952FC13E4679600B4AE5F /* ShadowRun.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShadowRun.xcdatamodel; sourceTree = "<group>"; };
-		8C6952FF13E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = ShadowRunAppDelegate_iPhone.h; path = iPhone/ShadowRunAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		8C6952FF13E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShadowRunAppDelegate_iPhone.h; path = iPhone/ShadowRunAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		8C69530013E4679600B4AE5F /* ShadowRunAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ShadowRunAppDelegate_iPhone.m; path = iPhone/ShadowRunAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		8C69530313E4679600B4AE5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		8C69530613E4679600B4AE5F /* ShadowRunAppDelegate_iPad.h */ = {isa = PBXFileReference; name = ShadowRunAppDelegate_iPad.h; path = iPad/ShadowRunAppDelegate_iPad.h; sourceTree = "<group>"; };
+		8C69530613E4679600B4AE5F /* ShadowRunAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShadowRunAppDelegate_iPad.h; path = iPad/ShadowRunAppDelegate_iPad.h; sourceTree = "<group>"; };
 		8C69530713E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ShadowRunAppDelegate_iPad.m; path = iPad/ShadowRunAppDelegate_iPad.m; sourceTree = "<group>"; };
 		8C69530A13E4679600B4AE5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
