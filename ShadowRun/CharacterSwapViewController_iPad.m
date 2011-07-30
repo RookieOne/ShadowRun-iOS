@@ -1,17 +1,15 @@
 //
-//  SplitViewController.m
+//  CharacterSwapViewController.m
 //  ShadowRun
 //
 //  Created by Kevin Lee on 7/30/11.
 //  Copyright 2011 Pursuit. All rights reserved.
 //
 
-#import "SplitViewController.h"
+#import "CharacterSwapViewController_iPad.h"
 
 
-@implementation SplitViewController
-
-@synthesize leftViewController, rightViewController, swapCharacterButton;
+@implementation CharacterSwapViewController_iPad
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -55,7 +53,7 @@
     // Return YES for supported orientations
 	return YES;
 }
-- (IBAction)swapCharacter {
-    NSLog(@"You want to swap the character");
+-(IBAction)close {
+    [self dismissModalViewControllerAnimated:YES];
 }
 @end

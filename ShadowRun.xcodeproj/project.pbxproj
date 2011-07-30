@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A3E398913E485F700E533EC /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E398713E485F700E533EC /* SplitViewController.m */; };
-		0A3E398A13E485F700E533EC /* SplitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E398813E485F700E533EC /* SplitViewController.xib */; };
+		0A3E398913E485F700E533EC /* SplitViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E398713E485F700E533EC /* SplitViewController_iPad.m */; };
+		0A3E398A13E485F700E533EC /* SplitViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E398813E485F700E533EC /* SplitViewController_iPad.xib */; };
 		0A3E398E13E48D0F00E533EC /* AttributesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E398C13E48D0F00E533EC /* AttributesTableViewController.m */; };
 		0A3E399313E490EE00E533EC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E399113E490EE00E533EC /* ProfileViewController.m */; };
+		0A3E399913E49D5400E533EC /* CharacterSwapViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E399713E49D5400E533EC /* CharacterSwapViewController_iPad.m */; };
+		0A3E399A13E49D5400E533EC /* CharacterSwapViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E399813E49D5400E533EC /* CharacterSwapViewController_iPad.xib */; };
 		8C6952E813E4679600B4AE5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952E713E4679600B4AE5F /* UIKit.framework */; };
 		8C6952EA13E4679600B4AE5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952E913E4679600B4AE5F /* Foundation.framework */; };
 		8C6952EC13E4679600B4AE5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C6952EB13E4679600B4AE5F /* CoreGraphics.framework */; };
@@ -33,13 +35,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A3E398613E485F700E533EC /* SplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
-		0A3E398713E485F700E533EC /* SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
-		0A3E398813E485F700E533EC /* SplitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplitViewController.xib; sourceTree = "<group>"; };
+		0A3E398613E485F700E533EC /* SplitViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewController_iPad.h; sourceTree = "<group>"; };
+		0A3E398713E485F700E533EC /* SplitViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController_iPad.m; sourceTree = "<group>"; };
+		0A3E398813E485F700E533EC /* SplitViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplitViewController_iPad.xib; sourceTree = "<group>"; };
 		0A3E398B13E48D0F00E533EC /* AttributesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributesTableViewController.h; sourceTree = "<group>"; };
 		0A3E398C13E48D0F00E533EC /* AttributesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributesTableViewController.m; sourceTree = "<group>"; };
 		0A3E399013E490EE00E533EC /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		0A3E399113E490EE00E533EC /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		0A3E399613E49D5400E533EC /* CharacterSwapViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; path = CharacterSwapViewController_iPad.h; sourceTree = "<group>"; };
+		0A3E399713E49D5400E533EC /* CharacterSwapViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterSwapViewController_iPad.m; sourceTree = "<group>"; };
+		0A3E399813E49D5400E533EC /* CharacterSwapViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterSwapViewController_iPad.xib; sourceTree = "<group>"; };
 		8C6952E313E4679600B4AE5F /* ShadowRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6952E713E4679600B4AE5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C6952E913E4679600B4AE5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,15 +94,25 @@
 		0A3E398313E4859700E533EC /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				0A3E398613E485F700E533EC /* SplitViewController.h */,
-				0A3E398713E485F700E533EC /* SplitViewController.m */,
-				0A3E398813E485F700E533EC /* SplitViewController.xib */,
+				0A3E398613E485F700E533EC /* SplitViewController_iPad.h */,
+				0A3E398713E485F700E533EC /* SplitViewController_iPad.m */,
+				0A3E398813E485F700E533EC /* SplitViewController_iPad.xib */,
 				0A3E398B13E48D0F00E533EC /* AttributesTableViewController.h */,
 				0A3E398C13E48D0F00E533EC /* AttributesTableViewController.m */,
 				0A3E399013E490EE00E533EC /* ProfileViewController.h */,
 				0A3E399113E490EE00E533EC /* ProfileViewController.m */,
 			);
 			name = Profile;
+			sourceTree = "<group>";
+		};
+		0A3E399513E49D2400E533EC /* Character Swap */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E399613E49D5400E533EC /* CharacterSwapViewController_iPad.h */,
+				0A3E399713E49D5400E533EC /* CharacterSwapViewController_iPad.m */,
+				0A3E399813E49D5400E533EC /* CharacterSwapViewController_iPad.xib */,
+			);
+			name = "Character Swap";
 			sourceTree = "<group>";
 		};
 		8C6952D813E4679600B4AE5F = {
@@ -175,6 +190,7 @@
 		8C69530513E4679600B4AE5F /* iPad */ = {
 			isa = PBXGroup;
 			children = (
+				0A3E399513E49D2400E533EC /* Character Swap */,
 				0A3E398313E4859700E533EC /* Profile */,
 				8C69530613E4679600B4AE5F /* ShadowRunAppDelegate_iPad.h */,
 				8C69530713E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m */,
@@ -247,7 +263,8 @@
 				8C69530B13E4679600B4AE5F /* MainWindow_iPad.xib in Resources */,
 				8C69531713E469C600B4AE5F /* CreateCharacterViewController.xib in Resources */,
 				8C69532713E46E5700B4AE5F /* RootViewController.xib in Resources */,
-				0A3E398A13E485F700E533EC /* SplitViewController.xib in Resources */,
+				0A3E398A13E485F700E533EC /* SplitViewController_iPad.xib in Resources */,
+				0A3E399A13E49D5400E533EC /* CharacterSwapViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +282,10 @@
 				8C69530813E4679600B4AE5F /* ShadowRunAppDelegate_iPad.m in Sources */,
 				8C69531613E469C600B4AE5F /* CreateCharacterViewController.m in Sources */,
 				8C69532613E46E5700B4AE5F /* RootViewController.m in Sources */,
-				0A3E398913E485F700E533EC /* SplitViewController.m in Sources */,
+				0A3E398913E485F700E533EC /* SplitViewController_iPad.m in Sources */,
 				0A3E398E13E48D0F00E533EC /* AttributesTableViewController.m in Sources */,
 				0A3E399313E490EE00E533EC /* ProfileViewController.m in Sources */,
+				0A3E399913E49D5400E533EC /* CharacterSwapViewController_iPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

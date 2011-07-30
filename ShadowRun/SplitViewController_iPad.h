@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface SplitViewController : UIViewController {
+@interface SplitViewController_iPad : UIViewController {
     
 }
 
