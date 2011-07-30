@@ -1,16 +1,17 @@
 //
-//  ProfileViewController.m
+//  SplitViewController.m
 //  ShadowRun
 //
 //  Created by Kevin Lee on 7/30/11.
 //  Copyright 2011 Pursuit. All rights reserved.
 //
 
-#import "ProfileViewController.h"
+#import "SplitViewController_iPad.h"
 
 
-@implementation ProfileViewController
-@synthesize metaType, playerName, alias;
+@implementation SplitViewController_iPad
+
+@synthesize leftViewController, rightViewController, swapCharacterButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -32,17 +33,14 @@
     [super didReceiveMemoryWarning];
     
     // Release any cached data, images, etc that aren't in use.
-    
 }
 
 #pragma mark - View lifecycle
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.alias.text = @"Kevin";
-    self.metaType.text = @"Human";
-    self.playerName.text = @"Tomoya";
 }
 
 - (void)viewDidUnload
@@ -57,5 +55,8 @@
     // Return YES for supported orientations
 	return YES;
 }
+- (IBAction)swapCharacter {
+    NSLog(@"You want to swap the character");
 
+}
 @end

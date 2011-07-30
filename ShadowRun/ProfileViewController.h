@@ -12,5 +12,8 @@
 @interface ProfileViewController : UIViewController {
     
 }
+@property (nonatomic, retain) IBOutlet UITextField *alias;
+@property (nonatomic, retain) IBOutlet UITextField *playerName;
+@property (nonatomic, retain) IBOutlet UITextField *metaType;
 
 @end

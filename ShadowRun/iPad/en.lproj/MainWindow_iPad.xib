@@ -103,7 +103,7 @@
 						<int key="IBUISystemItemIdentifier">5</int>
 					</object>
 					<reference key="IBUIParentViewController" ref="122499662"/>
-					<string key="IBUINibName">SplitViewController</string>
+					<string key="IBUINibName">SplitViewController_iPad</string>
 					<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 						<int key="IBUIInterfaceOrientation">1</int>
 						<int key="interfaceOrientation">1</int>
@@ -282,7 +282,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>SplitViewController</string>
+					<string>SplitViewController_iPad</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{202, 84}, {783, 772}}</string>
