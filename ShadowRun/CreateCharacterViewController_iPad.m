@@ -85,6 +85,8 @@
         NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
     }
     
+    [[NSNotificationCenter defaultCenter] postNotificationName:kCharacterSwap object:character];
+    
     [self dismissModalViewControllerAnimated:YES];
     
 }

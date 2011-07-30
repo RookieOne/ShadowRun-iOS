@@ -8,6 +8,7 @@
 
 #import "SplitViewController_iPad.h"
 #import "CreateCharacterViewController_iPad.h"
+#import "CDCharacter.h"
 
 @implementation SplitViewController_iPad
 
@@ -41,6 +42,14 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(swapCharacter:) name:kCharacterSwap object:nil];
+}
+
+-(void) swapCharacter:(NSNotification *)notification
+{
+    CDCharacter *character = (CDCharacter *)[notification object];
+    NSLog(@"swap character!! %@", character.name);
 }
 
 - (void)viewDidUnload

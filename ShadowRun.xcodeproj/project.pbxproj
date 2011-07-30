@@ -53,6 +53,7 @@
 		8C37666813E4A4F6001FCF98 /* CreateCharacterViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateCharacterViewController_iPad.h; sourceTree = "<group>"; };
 		8C37666913E4A4F6001FCF98 /* CreateCharacterViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateCharacterViewController_iPad.m; sourceTree = "<group>"; };
 		8C37666A13E4A4F6001FCF98 /* CreateCharacterViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCharacterViewController_iPad.xib; sourceTree = "<group>"; };
+		8C37667313E4AFBA001FCF98 /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
 		8C6952E313E4679600B4AE5F /* ShadowRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6952E713E4679600B4AE5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C6952E913E4679600B4AE5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -155,6 +156,7 @@
 		8C6952EF13E4679600B4AE5F /* ShadowRun */ = {
 			isa = PBXGroup;
 			children = (
+				8C37667313E4AFBA001FCF98 /* Globals.h */,
 				8C69531113E4683500B4AE5F /* Classes */,
 				8C6952F813E4679600B4AE5F /* ShadowRunAppDelegate.h */,
 				8C6952F913E4679600B4AE5F /* ShadowRunAppDelegate.m */,
