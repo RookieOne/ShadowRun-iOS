@@ -198,4 +198,14 @@
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
++ (ShadowRunAppDelegate *) getShadowRunAppDelegate
+{
+    return (ShadowRunAppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
++ (NSManagedObjectContext *) getManagedObjectContext
+{
+    return [ShadowRunAppDelegate getShadowRunAppDelegate].managedObjectContext;
+}
+
 @end

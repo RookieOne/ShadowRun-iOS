@@ -21,4 +21,7 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
++ (ShadowRunAppDelegate *) getShadowRunAppDelegate;
++ (NSManagedObjectContext *) getManagedObjectContext;
+
 @end

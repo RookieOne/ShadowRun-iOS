@@ -53,7 +53,7 @@
 -(void) characterSwapped:(NSNotification *) notification
 {
     self.character = (CDCharacter *) [notification object];
-    NSSortDescriptor *descriptor = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES];
+    //NSSortDescriptor *descriptor = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES];
     
     self.attributes = [NSMutableArray array];
     for (CDAttribute *attribute in self.character.attributes) {
@@ -123,7 +123,7 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    NSString *key = [NSString stringWithFormat:@"%d", indexPath.row];
+    //NSString *key = [NSString stringWithFormat:@"%d", indexPath.row];
     //CDAttribute *attribute = [self.character.attributes valueForKey:key];
     //CDAttribute *attribute = (CDAttribute *) [self.sortedAttributes objectAtIndex:indexPath.row];
     CDAttribute *attribute = (CDAttribute *) [self.attributes objectAtIndex:indexPath.row];

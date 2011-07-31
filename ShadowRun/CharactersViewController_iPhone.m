@@ -45,8 +45,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    ShadowRunAppDelegate *appDelegate = (ShadowRunAppDelegate *)[[UIApplication sharedApplication] delegate];
-    self.context = [appDelegate managedObjectContext];
+    self.context = [ShadowRunAppDelegate getManagedObjectContext];
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
     NSEntityDescription *entity = [NSEntityDescription entityForName:@"Character" inManagedObjectContext:self.context];
